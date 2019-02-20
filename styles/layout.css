@@ -385,24 +385,22 @@ table a, #comments a{background-color:inherit;}
 	.font-x3{font-size:1.6rem;}
 }
 
-/* index CSS
-----------------------------------------------------------*/
-h2{
-	color: orange;
-}
-.block{
-	color: lightblue;
-}
-a: link{
-	color: silver;
-}
-p{
+.first p{
 	text-align: justify;
-}
-.nospace{
-	display: none;
-} 
-.overlay{
-	background-image:url('../images/demo/backgrounds/01.png')
-}
+	font-family: Comic Sans MS;
 	
+}
+
+#text{
+	text-align: justify;font-family: Comic Sans MS;font-style: italic;font-weight:600;}
+ #comments ul{
+	background-color: silver;
+}
+#color{
+	background-color: silver;
+}
+.sdb_holder ul{
+	color: black !important;
+}
+.overlay{
+background-image:url('../images/demo/backgrounds/01.png');}
